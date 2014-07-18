@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136373BB1977335E00AD99CD /* VMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 136373BA1977335E00AD99CD /* VMTest.m */; };
 		13F3D81A1977238100A54781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F3D8191977238100A54781 /* Foundation.framework */; };
 		13F3D81C1977238100A54781 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F3D81B1977238100A54781 /* CoreGraphics.framework */; };
 		13F3D81E1977238100A54781 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F3D81D1977238100A54781 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		136373B91977335E00AD99CD /* VMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMTest.h; sourceTree = "<group>"; };
+		136373BA1977335E00AD99CD /* VMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMTest.m; sourceTree = "<group>"; };
 		13F3D8161977238100A54781 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F3D8191977238100A54781 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13F3D81B1977238100A54781 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				13F3D82B1977238200A54781 /* Main.storyboard */,
 				13F3D82E1977238200A54781 /* VMViewController.h */,
 				13F3D82F1977238200A54781 /* VMViewController.m */,
+				136373B91977335E00AD99CD /* VMTest.h */,
+				136373BA1977335E00AD99CD /* VMTest.m */,
 				13F3D8311977238200A54781 /* Images.xcassets */,
 				13F3D8201977238100A54781 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				13F3D8261977238100A54781 /* main.m in Sources */,
 				13F3D8301977238200A54781 /* VMViewController.m in Sources */,
+				136373BB1977335E00AD99CD /* VMTest.m in Sources */,
 				13F3D82A1977238100A54781 /* VMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				13F3D84A1977238200A54781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13F3D84B1977238200A54781 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				13F3D84D1977238200A54781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
